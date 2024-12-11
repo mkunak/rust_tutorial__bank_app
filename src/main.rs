@@ -106,7 +106,7 @@ fn main() {
     bank.add_account(&mut account_2);
     bank.add_account(&mut account_3);
 
-    println!("Bank: {:#?}", bank);
+    println!("Thi institution '{}': {:#?}", bank.name, bank);
     println!("Bank total balance: {:#?}", bank.calculate_total_balance());
     println!("Bank summaries: {:#?}", bank.get_summaries());
 }
